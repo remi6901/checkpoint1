@@ -17,10 +17,19 @@ exemple :
 ] 
 */
 
-function theaterSieges() {
-  // Your code here !
-}
 
+
+function theaterSieges() {
+  let colonne = Array(27);
+  let siege = Array(101);
+  for(let i = 1; i < 27; i++){
+    colonne[i] = Array(27);
+  for(let j = 1; j < 101; j++){
+    siege[j] = Array(101)
+    colonne[i][j] =  i + "," + j ;
+    }
+  }
+}
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
