@@ -88,6 +88,10 @@
   padding: 0;
 }
 
+.heading{
+  text-align: center;
+}
+
 .box {
   width: 25%;
   padding: 30px;
@@ -118,7 +122,7 @@ p {
 
   .skills{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
