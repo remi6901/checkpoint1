@@ -15,3 +15,22 @@ button.addEventListener("click", function(){
     button.style.backgroundColor = "#750ff7"
 })
 
+/*
+const link = document.querySelectorAll(".link");
+for(let i = 0; i < link.length; i++){
+    link[i].addEventListener("mouseover", function(){
+        link.style.color = "#750ff7"
+    })
+}*/
+
+const devTools = document.querySelectorAll("#front-dev-tools li");
+const buttonTools = document.querySelector(".button-tools");
+const myTools = ["VSCode", "Github", "Terminal"];
+buttonTools.addEventListener("click", function(){
+    for(let i = 0; i < devTools.length; i++){
+        devTools[i].innerHTML = "toto"
+    }
+})
+
+
+
