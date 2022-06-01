@@ -1,3 +1,28 @@
+/*===== header =====*/
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu{
+  padding-top: 15px;
+}
+
+.menu a{
+  color: #750ff7
+}
+/*===== Header =====*/
+/*===== Introduction =====*/
+.div-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-title img{
+  padding-top: 20px;
+}
 .pink-bg {
   background-color: pink;
 }
