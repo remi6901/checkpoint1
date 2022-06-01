@@ -28,6 +28,13 @@
   background-color: pink;
 }
 
+.button{
+  border: solid white 2px;
+  background-color: pink;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
 .pink-text {
   color: pink;
 }

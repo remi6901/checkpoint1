@@ -5,6 +5,13 @@ avatar.addEventListener("click", function(){
 });
 
 const myName = document.querySelector("#name");
-const userName = prompt("What's your name?");
-myName.innerHTML = userName;
-myName.style.color = "white";
+const button = document.querySelector(".button")
+const background = document.querySelector(".pink-bg")
+button.addEventListener("click", function(){
+    const userName = prompt("What's your name?");
+    myName.innerHTML = userName;
+    myName.style.color = "white";
+    background.style.backgroundColor = "#750ff7"
+    button.style.backgroundColor = "#750ff7"
+})
+
