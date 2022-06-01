@@ -52,7 +52,7 @@
 .desktop {
   margin: 80px 0 -5px 0;
 }
-
+/*==== Skills ====*/
 .skills {
   display: flex;
   justify-content: center;
@@ -114,6 +114,11 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.disabled{
+  opacity: 0.5;
+}
+
 
 /*==== Media queries ====*/
 @media screen and (max-width: 700px){
