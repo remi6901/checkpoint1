@@ -1,9 +1,7 @@
-console.log("connecté");
-
 /*==== Change avatar ====*/
 const avatar = document.querySelector(".avatar");
 avatar.addEventListener("click", function(){
-    avatar.src = "image/avatar.svg"
+    avatar.src = "image/avatar.svg";
 });
 
 
@@ -63,7 +61,7 @@ buttonInput.addEventListener("click", function(event){
 
 
 /*==== change color of link ====*/
-/*const link = document.querySelectorAll(".link");
+const link = document.querySelectorAll(".link");
 for(let i in link){
     link[i].addEventListener("mouseover", function(event){
         link[i].style.color = "#750ff7";
@@ -71,4 +69,4 @@ for(let i in link){
     link[i].addEventListener("mouseleave", function(event){
         link[i].style.color = "black";
     })
-}*/
+}

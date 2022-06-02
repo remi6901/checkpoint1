@@ -160,6 +160,14 @@ p {
     width: 70%;
   }
 
+  .column:last-child{
+    border-radius: 12px ;
+  }
+
+  .column:first-child{
+    border-radius: 12px;
+  }
+
   .contents{
     display: flex;
     flex-direction: column;
