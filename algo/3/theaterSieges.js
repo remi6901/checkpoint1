@@ -20,16 +20,19 @@ exemple :
 
 
 function theaterSieges() {
-  let colonne = Array(27);
-  let siege = Array(101);
-  for(let i = 1; i < 27; i++){
-    colonne[i] = Array(27);
-  for(let j = 1; j < 101; j++){
-    siege[j] = Array(101)
-    colonne[i][j] =  i + "," + j ;
-    }
-  }
+  
+  let colonne = Array(26);
+  let siege = Array(100);
+  for(let i = 0; i < 26; i++){
+      colonne[i] = Array(26);
+      for(let j = 0; j < 100; j++){
+        siege[j] = Array(100)
+        colonne[i][j] =  (i + 1) + "-" + (j + 1) ;
+      }
+    } 
+  return colonne
 }
+
 console.log(theaterSieges());
 
 module.exports = theaterSieges;

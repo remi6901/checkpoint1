@@ -7,6 +7,9 @@ avatar.addEventListener("click", function(){
 });
 
 
+
+
+
 /**==== Change the name and color ====/ */
 const myName = document.querySelector("#name");
 const button = document.querySelector(".button")
@@ -30,6 +33,7 @@ button.addEventListener("click", function(){
 
 
 
+
 /*==== Change the value for li ====*/ 
 const devTools = document.querySelectorAll("#front-dev-tools li");
 const buttonTools = document.querySelector(".button-tools");
@@ -41,14 +45,30 @@ buttonTools.addEventListener("click", function(){
 })
 
 
-/*==== change color of link ====*/
-const link = document.querySelectorAll(".link");
-for(let i in link){
-    link[i].addEventListener("mouseover", function(){
-        link[i].style.color = "#750ff7"
-    })
-    link[i].addEventListener("mouseleave", function(){
-        link[i].style.color = "black"
-    })
-}
 
+
+/*==== Add skills ====*/
+const buttonInput = document.querySelector("#bouton");
+const skill = document.querySelector(".skill ul")
+buttonInput.addEventListener("click", function(event){
+        event.preventDefault();
+        const input = document.querySelector("#input").value;
+        const li = document.createElement("li");
+        li.innerHTML = input 
+        skill.appendChild(li);
+         
+})
+
+
+
+
+/*==== change color of link ====*/
+/*const link = document.querySelectorAll(".link");
+for(let i in link){
+    link[i].addEventListener("mouseover", function(event){
+        link[i].style.color = "#750ff7";
+    })
+    link[i].addEventListener("mouseleave", function(event){
+        link[i].style.color = "black";
+    })
+}*/
